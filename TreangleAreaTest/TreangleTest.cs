@@ -18,11 +18,11 @@ namespace TreangleAreaTest
             double actual = Treangle.GetArea(a, b, c);
             Assert.AreEqual(expected, actual);
         }
-
+        [TestMethod]
         public void Area_5and5and5_0returned()
         {
-            double a = 3;
-            double b = 4;
+            double a = 5;
+            double b = 5;
             double c = 5;
             double expected = 0;
             double actual = Treangle.GetArea(a, b, c);
